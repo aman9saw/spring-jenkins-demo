@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringJenkinsApplication{
 
 	static Logger log = LoggerFactory.getLogger(SpringJenkinsApplication.class);
-	
+	qqqd // forcefully build fail
 	@PostConstruct
 	public void init() {
 		log.info("Application Started in main..........");
